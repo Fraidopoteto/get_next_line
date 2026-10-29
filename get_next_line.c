@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jschmunk <jschmunk@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 14:17:53 by jschmunk          #+#    #+#             */
-/*   Updated: 2023/10/26 17:31:56 by jschmunk         ###   ########.fr       */
+/*   Updated: 2026/10/29 10:40:15 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,14 +106,3 @@ char	*ft_restofline(char *save)
 	free(save);
 	return (str);
 }
-
-// int    main()
-// {
-//     int        fd;
-
-//     fd = open("drip_drop.txt", O_RDONLY);
-//     for (int i = 0; i < 3; ++i) {
-//         printf("%s", get_next_line(fd));
-//     }
-//     return (0);
-// }
